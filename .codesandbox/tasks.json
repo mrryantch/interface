@@ -1,0 +1,205 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    },
+    {
+      "command": "yarn web start",
+      "name": "y"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "extension": {
+      "name": "extension",
+      "command": "yarn extension"
+    },
+    "g:build": {
+      "name": "g:build",
+      "command": "yarn g:build"
+    },
+    "g:check:translations": {
+      "name": "g:check:translations",
+      "command": "yarn g:check:translations"
+    },
+    "g:check:deps:usage": {
+      "name": "g:check:deps:usage",
+      "command": "yarn g:check:deps:usage"
+    },
+    "g:check:deps:mismatch": {
+      "name": "g:check:deps:mismatch",
+      "command": "yarn g:check:deps:mismatch"
+    },
+    "g:check:circular": {
+      "name": "g:check:circular",
+      "command": "yarn g:check:circular"
+    },
+    "g:format:deps": {
+      "name": "g:format:deps",
+      "command": "yarn g:format:deps"
+    },
+    "g:format": {
+      "name": "g:format",
+      "command": "yarn g:format"
+    },
+    "g:format:fix": {
+      "name": "g:format:fix",
+      "command": "yarn g:format:fix"
+    },
+    "g:format:changed": {
+      "name": "g:format:changed",
+      "command": "yarn g:format:changed"
+    },
+    "g:fix": {
+      "name": "g:fix",
+      "command": "yarn g:fix"
+    },
+    "g:lint:changed": {
+      "name": "g:lint:changed",
+      "command": "yarn g:lint:changed"
+    },
+    "g:lint": {
+      "name": "g:lint",
+      "command": "yarn g:lint"
+    },
+    "g:lint:fix": {
+      "name": "g:lint:fix",
+      "command": "yarn g:lint:fix"
+    },
+    "g:prepare": {
+      "name": "g:prepare",
+      "command": "yarn g:prepare"
+    },
+    "g:rm:local-packages": {
+      "name": "g:rm:local-packages",
+      "command": "yarn g:rm:local-packages"
+    },
+    "g:rm:nodemodules": {
+      "name": "g:rm:nodemodules",
+      "command": "yarn g:rm:nodemodules"
+    },
+    "g:run-fast-checks": {
+      "name": "g:run-fast-checks",
+      "command": "yarn g:run-fast-checks"
+    },
+    "g:run-all-checks": {
+      "name": "g:run-all-checks",
+      "command": "yarn g:run-all-checks"
+    },
+    "g:test": {
+      "name": "g:test",
+      "command": "yarn g:test"
+    },
+    "g:test:coverage": {
+      "name": "g:test:coverage",
+      "command": "yarn g:test:coverage"
+    },
+    "g:test:coverage:rest": {
+      "name": "g:test:coverage:rest",
+      "command": "yarn g:test:coverage:rest"
+    },
+    "g:test:coverage:web": {
+      "name": "g:test:coverage:web",
+      "command": "yarn g:test:coverage:web"
+    },
+    "g:test:coverage:extension": {
+      "name": "g:test:coverage:extension",
+      "command": "yarn g:test:coverage:extension"
+    },
+    "g:test:coverage:mobile": {
+      "name": "g:test:coverage:mobile",
+      "command": "yarn g:test:coverage:mobile"
+    },
+    "g:test:coverage:wallet": {
+      "name": "g:test:coverage:wallet",
+      "command": "yarn g:test:coverage:wallet"
+    },
+    "g:snapshots": {
+      "name": "g:snapshots",
+      "command": "yarn g:snapshots"
+    },
+    "g:typecheck": {
+      "name": "g:typecheck",
+      "command": "yarn g:typecheck"
+    },
+    "g:typecheck:changed": {
+      "name": "g:typecheck:changed",
+      "command": "yarn g:typecheck:changed"
+    },
+    "graphql:schema": {
+      "name": "graphql:schema",
+      "command": "yarn graphql:schema"
+    },
+    "graphql:generate": {
+      "name": "graphql:generate",
+      "command": "yarn graphql:generate"
+    },
+    "i18n:extract": {
+      "name": "i18n:extract",
+      "command": "yarn i18n:extract"
+    },
+    "i18n:_upload": {
+      "name": "i18n:_upload",
+      "command": "yarn i18n:_upload"
+    },
+    "i18n:upload": {
+      "name": "i18n:upload",
+      "command": "yarn i18n:upload"
+    },
+    "i18n:_download": {
+      "name": "i18n:_download",
+      "command": "yarn i18n:_download"
+    },
+    "i18n:download": {
+      "name": "i18n:download",
+      "command": "yarn i18n:download"
+    },
+    "lfg": {
+      "name": "lfg",
+      "command": "yarn lfg"
+    },
+    "mobile": {
+      "name": "mobile",
+      "command": "yarn mobile"
+    },
+    "local:check": {
+      "name": "local:check",
+      "command": "yarn local:check"
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall"
+    },
+    "ui": {
+      "name": "ui",
+      "command": "yarn ui"
+    },
+    "upgrade:tamagui": {
+      "name": "upgrade:tamagui",
+      "command": "yarn upgrade:tamagui"
+    },
+    "upgrade:tamagui:canary": {
+      "name": "upgrade:tamagui:canary",
+      "command": "yarn upgrade:tamagui:canary"
+    },
+    "wallet": {
+      "name": "wallet",
+      "command": "yarn wallet"
+    },
+    "web": {
+      "name": "web",
+      "command": "yarn web"
+    },
+    "uniswap": {
+      "name": "uniswap",
+      "command": "yarn uniswap"
+    },
+    "utilities": {
+      "name": "utilities",
+      "command": "yarn utilities"
+    }
+  }
+}
