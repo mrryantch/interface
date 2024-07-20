@@ -6,8 +6,8 @@
       "command": "yarn install"
     },
     {
-      "command": "yarn web start",
-      "name": "y"
+      "name": "y",
+      "command": "yarn web start"
     }
   ],
 
